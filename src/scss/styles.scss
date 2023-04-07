@@ -1,0 +1,50 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+$rosa : #E21982;
+$azul-oscuro : #22193F;
+$gris : #E8E8E8;
+body {
+    background-color: white;
+    padding:0px;
+    margin: 0px;
+}
+
+
+.hero {
+    height: calc(100vh - 60px);
+    background: url(images/banner-principal.jpg) no-repeat center center;
+}
+
+.btn-rosa{
+    color: white;
+    background-color: #E21982;
+}
+h2{
+    color: $rosa;
+}
+
+.conocenos{
+    background: $gris;
+    p, h2{
+        color: $azul-oscuro;
+    }
+}
+
+.funcionamiento{
+    .tarjeta{
+        width: 300px;
+    }
+}
+
+.sumate{
+    height: 20vh;
+    background: $rosa;
+    color: white;
+    div{
+        
+    }
+}
+
+.preguntas{
+    background: $gris;
+}
