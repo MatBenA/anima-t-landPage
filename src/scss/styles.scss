@@ -12,6 +12,7 @@ body {
 .hero {
     height: calc(100vh - 60px);
     background: url(images/banner-principal.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .btn-rosa {
@@ -24,9 +25,17 @@ h2 {
 
 .conocenos {
     background: $gris;
+    p {
+        width: 50%;
+    }
     p,
     h2 {
         color: $azul-oscuro;
+    }
+}
+@media (max-width: 769px) {
+    .conocenos p {
+        width: auto;
     }
 }
 
@@ -55,6 +64,7 @@ h2 {
 
 .second-banner {
     background: url(images/banner-secundario.jpg) no-repeat center center;
+    background-size: cover;
     height: 45vh;
     h2 {
         color: white;
@@ -66,11 +76,10 @@ h2 {
     }
 }
 
-footer{
+footer {
     background-color: $azul-oscuro;
     color: white;
     height: 20vh;
-    box{
-
+    box {
     }
 }
