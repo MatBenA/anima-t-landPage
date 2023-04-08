@@ -1,8 +1,15 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
 $rosa: #e21982;
 $azul-oscuro: #22193f;
 $gris: #e8e8e8;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: white;
     padding: 0px;
@@ -80,6 +87,13 @@ footer {
     background-color: $azul-oscuro;
     color: white;
     height: 20vh;
-    box {
+    
+    svg {
+        color: white;
+        transition: all 200ms;
+        &:hover {
+            color: #e8e8e8;
+            transform: scale(1.2);
+        }
     }
 }
