@@ -1,50 +1,75 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
-$rosa : #E21982;
-$azul-oscuro : #22193F;
-$gris : #E8E8E8;
+$rosa: #e21982;
+$azul-oscuro: #22193f;
+$gris: #e8e8e8;
 body {
     background-color: white;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
 }
-
 
 .hero {
     height: calc(100vh - 60px);
     background: url(images/banner-principal.jpg) no-repeat center center;
 }
 
-.btn-rosa{
+.btn-rosa {
     color: white;
-    background-color: #E21982;
+    background-color: #e21982;
 }
-h2{
+h2 {
     color: $rosa;
 }
 
-.conocenos{
+.conocenos {
     background: $gris;
-    p, h2{
+    p,
+    h2 {
         color: $azul-oscuro;
     }
 }
 
-.funcionamiento{
-    .tarjeta{
+.funcionamiento {
+    .tarjeta {
         width: 300px;
     }
 }
 
-.sumate{
+.sumate {
     height: 20vh;
     background: $rosa;
     color: white;
-    div{
-        
+    div {
     }
 }
 
-.preguntas{
+.preguntas {
     background: $gris;
+    h2 {
+        color: $azul-oscuro;
+    }
+    h3 {
+        color: $rosa;
+    }
+}
+
+.second-banner {
+    background: url(images/banner-secundario.jpg) no-repeat center center;
+    height: 45vh;
+    h2 {
+        color: white;
+    }
+    .btn {
+        background-color: $rosa;
+        color: white;
+        width: fit-content;
+    }
+}
+
+footer{
+    background-color: $azul-oscuro;
+    color: white;
+    height: 20vh;
+
 }
