@@ -5,9 +5,16 @@ $rosa: #e21982;
 $azul-oscuro: #22193f;
 $gris: #e8e8e8;
 
-*{
+* {
     margin: 0px;
     padding: 0px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
 }
 
 body {
@@ -16,10 +23,33 @@ body {
     margin: 0px;
 }
 
+.navbar {
+    a {
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+    }
+    button{
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
 .hero {
     height: calc(100vh - 60px);
     background: url(images/banner-principal.jpg) no-repeat center center;
     background-size: cover;
+    button {
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 22px;
+    }
 }
 
 .btn-rosa {
@@ -27,7 +57,8 @@ body {
     background-color: #e21982;
 }
 h2 {
-    color: $rosa;
+    color: $azul-oscuro;
+    font-size: 28px;
 }
 
 .conocenos {
@@ -38,6 +69,14 @@ h2 {
     p,
     h2 {
         color: $azul-oscuro;
+    }
+    button,
+    a {
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+    .titulo-chico {
+        color: $rosa;
     }
 }
 @media (max-width: 769px) {
@@ -55,7 +94,13 @@ h2 {
 .sumate {
     background: $rosa;
     color: white;
-    div {
+    button{
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    h3{
+        font-size: 23px;
     }
 }
 
@@ -81,13 +126,18 @@ h2 {
         color: white;
         width: fit-content;
     }
+    button{
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
 }
 
 footer {
     background-color: $azul-oscuro;
     color: white;
     height: 20vh;
-    
+
     svg {
         color: white;
         transition: all 200ms;
@@ -96,4 +146,19 @@ footer {
             transform: scale(1.2);
         }
     }
+    a {
+        font-family: "Nunito", sans-serif;
+        font-weight: bold;
+    }
+}
+
+.titulo-chico {
+    color: $rosa;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
 }

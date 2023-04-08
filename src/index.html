@@ -3,6 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700;900&family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
         <title>Bootstrap w/ Vite</title>
         <script type="module" src="./js/main.js"></script>
     </head>
@@ -51,7 +57,7 @@
         </nav>
         <main>
             <section
-                class="hero text-center text-light d-flex align-items-center"
+                class="hero px-4 text-center text-light d-flex align-items-center"
             >
                 <div class="m-auto">
                     <h1>Cada día, mejor</h1>
@@ -59,14 +65,14 @@
                         La red más eficiente de profesionales para tu desarrollo
                         y bienestar emocional.
                     </p>
-                    <button class="btn btn-rosa rounded-5">COMENZAR</button>
+                    <button class="btn btn-rosa rounded-5">Comenzar</button>
                 </div>
             </section>
             <section
                 class="py-5 px-4 conocenos text-center d-flex align-items-center"
             >
                 <div>
-                    <h3>CONOCENOS</h3>
+                    <p class="m-auto titulo-chico">CONOCENOS</p>
                     <h2>Quienes somos</h2>
                     <p class="m-auto">
                         En <span class="fw-bold">Anima-T</span> colaboramos con
@@ -80,8 +86,8 @@
                     </p>
                 </div>
             </section>
-            <section class="py-5 funcionamiento text-center d-flex flex-column">
-                <h3>CÓMO FUNCIONA</h3>
+            <section class="py-5 px-4 funcionamiento text-center d-flex flex-column">
+                <p class="titulo-chico">CÓMO FUNCIONA</p>
                 <h2>¿Buscas ayuda?</h2>
                 <div
                     class="d-flex align-self-center flex-wrap justify-content-center gap-3"
@@ -122,14 +128,14 @@
                     <h3 class="text-center">
                         Si brindas ayuda y te interesa sumarte
                     </h3>
-                    <button class="btn btn-outline-light rounded-5">
+                    <button class="btn btn-outline-light rounded-5 px-3">
                         Hacé click aquí
                     </button>
                 </div>
             </section>
             <section class="preguntas py-5">
                 <div class="text-center d-flex flex-column align-items-center">
-                    <h3>CONOCENOS</h3>
+                    <p class="titulo-chico">CONOCENOS</p>
                     <h2>Preguntas frecuentes</h2>
                     <div
                         class="w-75 d-flex justify-content-center mt-5 flex-wrap"
@@ -184,7 +190,7 @@
                             </select>
                         </div>
                         <div>
-                            <img
+                            <img class="img-fluid"
                                 src="scss/images/ilustracion-faqs.svg"
                                 alt=""
                             />
@@ -193,14 +199,14 @@
                 </div>
             </section>
             <section
-                class="second-banner d-flex align-items-center justify-content-center"
+                class="second-banner px-4 d-flex align-items-center justify-content-center"
             >
                 <div class="text-center">
                     <h2>
                         Desarróllate hacia tus sueños, fácil, rápido y desde
                         cualquier lugar
                     </h2>
-                    <button class="btn rounded-5">COMENZAR</button>
+                    <button class="btn rounded-5 px-3">Comenzar</button>
                 </div>
             </section>
         </main>
@@ -262,7 +268,7 @@
                     </li>
                 </ul>
                 <p class="derechos mt-3">
-                    2020 Todos los derechos reservados - anima-t
+                    © 2020 Todos los derechos reservados - anima-t
                 </p>
             </div>
         </footer>
