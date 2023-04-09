@@ -49,6 +49,12 @@ body {
     }
     p{
         font-size: 22px;
+        width: 500px;
+    }
+    @media (max-width: 576px) {
+        p {
+            width: auto;
+        }
     }
 }
 
@@ -79,7 +85,7 @@ h2 {
         color: $rosa;
     }
 }
-@media (max-width: 769px) {
+@media (max-width: 576px) {
     .conocenos p {
         width: auto;
     }
